@@ -1,0 +1,47 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.encabezado{
+   
+   margin: 20px auto;
+   text-align: center;
+   font-family: 'Anton';
+}
+main{
+    background: rgb(200, 200, 200);
+    width: auto;
+    height: auto;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+.bloque{
+    width: 600px;
+    height:max-content;
+    margin-top: 40px;
+}
+.nombre-publicacion{
+    display: flex;
+    justify-content:space-between;
+    background: rgb(251, 251, 251);
+    padding: 10px;
+}
+h2{
+    font-family: 'Patua One';
+    font-size: 30px;
+}
+span{
+    color: rgb(134, 133, 133);
+}
+.imagagen{
+    width: 600px;
+    height: 500px;
+}
+.pie-de-foto
+{
+    background: rgb(255, 254, 255);
+    padding: 20px;
+    font-family: 'PT Sans Narrow'
+}
